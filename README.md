@@ -1,7 +1,24 @@
 # bejewel requirt
 
+# Client
 
-#Server 
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+```bash
+npm install or yarn install
+
+then
+
+npm start or yarn start
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+```
+
+# Server 
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
@@ -30,11 +47,14 @@ CREATE ROLE bejewel WITH PASSWORD '1234'
 ## Installation
 
 ```bash
-$ npm install
+$ npm install or yarn install
 ```
 
 ## Running the app
 
 ```bash
 # development
-$ npm run start
+$ npm run start or yarn start
+This app running on http://localhost:3005
+
+
