@@ -53,8 +53,12 @@ $ npm install or yarn install
 ## Running the app
 
 ```bash
-# development
+$ npm install or yarn install
+
+then
+
 $ npm run start or yarn start
-This app running on http://localhost:3005
+
+This app will running on http://localhost:3005
 
 
