@@ -1,4 +1,4 @@
-import {IProductProps, Product} from "../components/Product";
+import {IProductProps, Products} from "../components/Products";
 import {Header} from "../layout/header/Header";
 
 
@@ -6,7 +6,7 @@ export default function MainPage() {
     return (
         <>
             <Header/>
-            <Product/>
+            <Products />
         </>
 
     )

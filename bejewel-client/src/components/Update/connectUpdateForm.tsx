@@ -1,4 +1,4 @@
-import {IProductProps} from "../Product";
+import {IProductProps} from "../Products";
 import React, {Dispatch, SetStateAction} from "react";
 import {ProductDto} from "../../apis/dto/ProductDto";
 import {updateProductInfo} from "../../apis/product-api";

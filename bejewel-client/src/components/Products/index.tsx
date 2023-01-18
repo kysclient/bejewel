@@ -1,4 +1,4 @@
-import {ProductUI} from "./product";
+import {ProductList} from "./product";
 
 export interface IProductProps {
     id: string;
@@ -12,6 +12,6 @@ export interface IProductProps {
     price: string;
 }
 
-export function Product() {
-    return <ProductUI />;
+export function Products() {
+    return <ProductList />;
 }

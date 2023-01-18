@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import {useProducts} from "../../hooks/useProducts";
 
 
-export function ProductUI() {
+export function ProductList() {
     const {products} = useProducts();
 
     return (

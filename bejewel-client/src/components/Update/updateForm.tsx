@@ -1,4 +1,4 @@
-import {IProductProps} from "../Product";
+import {IProductProps} from "../Products";
 import React, {Fragment, useEffect, useState} from "react";
 import { Dialog, Transition } from '@headlessui/react'
 import {IConnectUpdateProps} from "./connectUpdateForm";

@@ -1,7 +1,7 @@
 import {useParams} from "react-router-dom";
 import {Dispatch, SetStateAction, useEffect, useState} from "react";
 import {fetchProductInfo} from "../../apis/product-api";
-import {IProductProps} from "../Product";
+import {IProductProps} from "../Products";
 import ConnectUpdateForm from "../Update/connectUpdateForm";
 
 
@@ -73,7 +73,7 @@ export function ProductDetailUI(props: IProductDetailProps) {
 
                     </div>
 
-                    {/* Product info */}
+                    {/* Products info */}
                     <div
                         className="mx-auto max-w-2xl px-4 pt-10 pb-16 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pt-16 lg:pb-24">
                         <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">

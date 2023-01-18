@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {IProductProps} from "../components/Product";
+import {IProductProps} from "../components/Products";
 import {fetchProducts} from "../apis/product-api";
 
 
