@@ -36,15 +36,12 @@ export class ProductsService {
 
     async update(id: number, product: Product): Promise<Product> {
         const updateProduct = await this.findOne(id);
-        console.log('findProduct : ', updateProduct)
         if(updateProduct === null) throw new NotFoundException(`Could not find a product with id:${id}`);
         updateProduct.description = product.description;
-        updateProduct.images = product.images;
+        updateProduct.price = product.price;
         updateProduct.title = product.title;
         updateProduct.images = product.images;
         await this.productRepository.save(updateProduct);
-        console.log('request product : ', product)
-        console.log('updateProduct : ', updateProduct)
         return updateProduct;
     }
 

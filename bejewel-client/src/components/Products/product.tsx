@@ -3,7 +3,7 @@ import {useProducts} from "../../hooks/useProducts";
 
 
 export function ProductList() {
-    const {products} = useProducts();
+    const { products, loading } = useProducts();
 
     return (
         <>
@@ -15,6 +15,8 @@ export function ProductList() {
                     className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
 
                     {
+                        loading ? <div>loading...</div>
+                        :
                         products.length > 0 ?
                             products.map((product, idx) => (
                                 <Link to={`/detail/${product.id}`} className="group" key={`list${idx}`}>

@@ -12,7 +12,7 @@ export class Product {
     description?: string;
 
     @Column({default: 0})
-    price?: number;
+    price?: string;
 
     @Column("text", { array: true , default: []})
     images: string[];
